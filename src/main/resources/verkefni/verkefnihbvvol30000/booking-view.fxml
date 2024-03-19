@@ -5,12 +5,14 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="verkefni.verkefnihbvvol30000.BookingController">
    <children>
-      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="534.0" layoutY="361.0" mnemonicParsing="false" text="Button" />
-      <Label layoutX="206.0" layoutY="200.0" text="cardnumber" />
-      <Label layoutX="206.0" layoutY="231.0" text="Label" />
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#backToBooking" text="Back to booking" />
+      <Button layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#payAndFinish" text="Pay" />
+      <Label layoutX="174.0" layoutY="200.0" text="cardnumber" />
+      <Label layoutX="206.0" layoutY="231.0" text="coupon" />
       <ListView layoutX="14.0" layoutY="14.0" prefHeight="161.0" prefWidth="134.0" />
       <TextField layoutX="257.0" layoutY="196.0" />
       <TextField layoutX="257.0" layoutY="227.0" />
+      <Label layoutX="14.0" layoutY="183.0" text="total price" />
+      <Label layoutX="97.0" layoutY="183.0" text="0 kr" />
    </children>
 </AnchorPane>

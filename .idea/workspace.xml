@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/booking-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/main-view.fxml" afterDir="false" />
+    <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="ehv komið">
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/StadfestingDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/ViewSwitcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/user-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/booking-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/booking-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/hotel-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/hotel-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +56,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/asger/Downloads/165282944"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="verkefni.verkefnihbvvol30000" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbvvol30000.Main" />
@@ -77,6 +84,18 @@
       <option name="presentableId" value="Default" />
       <updated>1710607981211</updated>
     </task>
+    <task id="LOCAL-00001" summary="ehv komið">
+      <created>1710858370453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710858370453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ehv komið" />
+    <option name="LAST_COMMIT_MESSAGE" value="ehv komið" />
   </component>
 </project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="235.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="verkefni.verkefnihbvvol30000.UserController">
+   <children>
+      <Button fx:id="loginOrSignup" onAction="#signupOrLoginHandler" layoutX="121.0" layoutY="196.0" mnemonicParsing="false" text="Login or signup" />
+      <TextField fx:id="fxUsername" layoutX="170.0" layoutY="75.0" />
+      <TextField fx:id="fxGmail" layoutX="170.0" layoutY="111.0" />
+      <PasswordField fx:id="fxPassword" layoutX="170.0" layoutY="153.0" />
+      <Label layoutX="100.0" layoutY="79.0" text="username" />
+      <Label layoutX="111.0" layoutY="115.0" text="gmail" />
+      <Label layoutX="101.0" layoutY="157.0" text="password" />
+      <Label layoutX="115.0" layoutY="38.0" text="Pleas fill out all fileds" />
+   </children>
+</AnchorPane>
