@@ -8,14 +8,20 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.stage.Stage;
+import verkefni.verkefnihbvvol30000.Hotel;
+import verkefni.verkefnihbvvol30000.Room;
+import verkefni.verkefnihbvvol30000.View;
+import verkefni.verkefnihbvvol30000.ViewSwitcher;
 
 import java.io.IOException;
 import java.nio.Buffer;
 import java.util.ArrayList;
 
+
 public class HotelController {
 
     private Hotel hotel;
+    private HotelDB db;
     private ArrayList<Room> rooms;
 
     @FXML
@@ -26,6 +32,7 @@ public class HotelController {
     private DatePicker fxStart, fxEnd;
 
 
+    public HotelController(){db=new HotelDB();}
     @FXML
     public void bookAndPay(){
         ViewSwitcher.switchTo(View.BOOKING);
@@ -34,8 +41,13 @@ public class HotelController {
     }
 
     @FXML
-    public void logUpButton(){
-        ViewSwitcher.switchTo(View.USER);
+    public void loginButton(){
+        ViewSwitcher.switchTo(View.LOGIN);
+        // move to user-view
+    }
+    @FXML
+    public void signUpButton(){
+        ViewSwitcher.switchTo(View.SIGNUP);
         // move to user-view
 
     }

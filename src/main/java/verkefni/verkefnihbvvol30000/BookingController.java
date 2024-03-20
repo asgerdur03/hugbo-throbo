@@ -1,6 +1,9 @@
 package verkefni.verkefnihbvvol30000;
 
 import javafx.fxml.FXML;
+import verkefni.verkefnihbvvol30000.StadfestingDialog;
+import verkefni.verkefnihbvvol30000.View;
+import verkefni.verkefnihbvvol30000.ViewSwitcher;
 
 public class BookingController {
 

@@ -7,6 +7,8 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
+import verkefni.verkefnihbvvol30000.View;
+import verkefni.verkefnihbvvol30000.ViewSwitcher;
 
 public class UserController {
 
@@ -15,11 +17,13 @@ public class UserController {
     @FXML
     private PasswordField fxPassword;
     @FXML
-    private Button loginOrSignup;
+    private Button fxLogin, fxSignup;
 
-    public void signupOrLoginHandler(ActionEvent event){
+    public void loginHandler(ActionEvent event){
         ViewSwitcher.switchTo(View.HOTEL);
-
+    }
+    public void signupHandler(ActionEvent event){
+        ViewSwitcher.switchTo(View.HOTEL);
     }
 
 

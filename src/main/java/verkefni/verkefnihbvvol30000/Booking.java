@@ -1,5 +1,7 @@
 package verkefni.verkefnihbvvol30000;
 
+import verkefni.verkefnihbvvol30000.Room;
+
 import java.util.Date;
 
 public class Booking {

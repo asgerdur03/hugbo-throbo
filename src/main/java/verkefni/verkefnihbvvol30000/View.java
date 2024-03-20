@@ -7,7 +7,9 @@ package verkefni.verkefnihbvvol30000;
 public enum View {
     BOOKING("booking-view.fxml"),
     HOTEL("hotel-view.fxml"),
-    USER("user-view.fxml");
+    LOGIN("login-view.fxml"),
+    SIGNUP("signup-view.fxml");
+
 
 
     private String fileName;
