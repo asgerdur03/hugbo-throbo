@@ -13,5 +13,7 @@
       <Label layoutX="111.0" layoutY="115.0" text="gmail" />
       <Label layoutX="101.0" layoutY="157.0" text="password" />
       <Label layoutX="115.0" layoutY="38.0" text="Login" />
+      <Label fx:id="fxLoginText" layoutX="217.0" layoutY="196.0" />
+      <Button layoutX="14.0" layoutY="201.0" mnemonicParsing="false" onAction="#goBack" text="back to menu" />
    </children>
 </AnchorPane>

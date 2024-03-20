@@ -5,7 +5,10 @@ import verkefni.verkefnihbvvol30000.StadfestingDialog;
 import verkefni.verkefnihbvvol30000.View;
 import verkefni.verkefnihbvvol30000.ViewSwitcher;
 
-public class BookingController {
+public class BookingController { //allt sem er hægt að gera eftir á
+
+    // TODO: display booking details (prize, date, etc)
+
 
     @FXML
     public void backToBooking(){
@@ -15,7 +18,6 @@ public class BookingController {
     @FXML
     public void payAndFinish(){
         new StadfestingDialog();
-        // finish, mabey open dialog window?
     }
 
 }

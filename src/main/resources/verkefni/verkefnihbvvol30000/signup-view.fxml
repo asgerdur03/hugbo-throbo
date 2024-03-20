@@ -7,11 +7,13 @@
    <children>
       <Button fx:id="fxSignup" layoutX="121.0" layoutY="196.0" mnemonicParsing="false" onAction="#signupHandler" text="signup" />
       <TextField fx:id="fxUsername" layoutX="170.0" layoutY="75.0" />
-      <TextField fx:id="fxGmail" layoutX="170.0" layoutY="111.0" />
+      <TextField fx:id="fxEmail" layoutX="170.0" layoutY="111.0" />
       <PasswordField fx:id="fxPassword" layoutX="170.0" layoutY="153.0" />
-      <Label layoutX="100.0" layoutY="79.0" text="username" />
+      <Label layoutX="100.0" layoutY="79.0" text="username"  />
       <Label layoutX="111.0" layoutY="115.0" text="gmail" />
       <Label layoutX="101.0" layoutY="157.0" text="password" />
       <Label layoutX="115.0" layoutY="38.0" text="Signup" />
+      <Button layoutX="14.0" layoutY="196.0" mnemonicParsing="false" onAction="#goBack" text="go back" />
+      <Label fx:id="fxSignupText" layoutX="245.0" layoutY="200.0" />
    </children>
 </AnchorPane>

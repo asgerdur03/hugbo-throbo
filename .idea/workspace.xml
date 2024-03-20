@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="ui komið?, forrit sem runnar, en hefur ekkert function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/signup-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sqlite-jdbc-3.43.2.0.jar" afterDir="false" />
+    <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="kill me now skil ekkert">
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/SqliteSetupConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verkefni.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Booking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/hotel-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/hotel-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/user-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/signup-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/signup-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +63,7 @@
       <recent name="C:\Users\asger\Downloads\IntelliJ_Forrit\VerkefniHBVvol30000\src\main\resources\verkefni\verkefnihbvvol30000" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\asger\Downloads\IntelliJ_Forrit\VerkefniHBVvol30000" />
       <recent name="C:\Users\asger\Downloads\IntelliJ_Forrit\VerkefniHBVvol30000\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -108,12 +105,20 @@
       <option name="project" value="LOCAL" />
       <updated>1710884254037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="kill me now skil ekkert">
+      <created>1710899141334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710899141334</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ehv komið" />
     <MESSAGE value="ui komið?, forrit sem runnar, en hefur ekkert function" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui komið?, forrit sem runnar, en hefur ekkert function" />
+    <MESSAGE value="kill me now skil ekkert" />
+    <option name="LAST_COMMIT_MESSAGE" value="kill me now skil ekkert" />
   </component>
 </project>
