@@ -1,6 +1,7 @@
 package verkefni.verkefnihbvvol30000;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
 
 public class MockDB implements MockDBInterface{
@@ -104,7 +105,6 @@ public class MockDB implements MockDBInterface{
         }
         return foundHotels;
     }
-
 
 
 

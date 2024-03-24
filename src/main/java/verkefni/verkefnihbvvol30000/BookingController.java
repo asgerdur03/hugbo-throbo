@@ -16,8 +16,16 @@ public class BookingController { //allt sem er hægt að gera eftir á
         // move to hotel-view
     }
     @FXML
-    public void payAndFinish(){
+    public void payAndFinish(Booking booking) {
+        // remove booking() from DB
         new StadfestingDialog();
+
     }
 
+    public void addBooking(Booking booking) {
+    }
+
+    public void removeBooking(Booking booking) {
+
+    }
 }

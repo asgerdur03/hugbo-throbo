@@ -38,4 +38,8 @@ public class Hotel {
     @Override
     public String toString() {
         return hotelName + " - " + hotelAddress;}
+
+    public Hotel getHotel() {
+        return this;
+    }
 }

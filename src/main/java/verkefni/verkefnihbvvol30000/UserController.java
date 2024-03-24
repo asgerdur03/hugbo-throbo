@@ -14,6 +14,7 @@ import verkefni.verkefnihbvvol30000.ViewSwitcher;
 
 import java.net.URL;
 import java.sql.SQLException;
+import java.util.Collection;
 import java.util.ResourceBundle;
 
 public class UserController implements Initializable { //semi funtional, ásættanlegt en ekki fullkomið.
@@ -27,6 +28,7 @@ public class UserController implements Initializable { //semi funtional, ásætt
 
 
     public UserDB userDB = new UserDB();
+    private MockDB mockDB = new MockDB();
 
 
     @Override
@@ -66,8 +68,14 @@ public class UserController implements Initializable { //semi funtional, ásætt
         }
 
          */
+        mockDB.addUser(new User(fxUsername.getText(), fxEmail.getText(), fxPassword.getText()));
 
 
     }
+    public void addUser(User user) {
+        mockDB.addUser(new User(fxUsername.getText(), fxEmail.getText(), fxPassword.getText()));
+    }
+
+
 }
 
