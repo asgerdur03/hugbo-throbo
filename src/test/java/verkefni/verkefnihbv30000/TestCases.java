@@ -101,6 +101,7 @@ public class TestCases {
 
 }
 
-
+// TODO: laga hvar hlutir eiga að vera, nota mock object í staðin fyrir mock database eða ehv þannig.
+// TODO: setja aðferðir í réttan controller?
 
 

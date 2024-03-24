@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="ehv mögulega komið fyrir verkefni 4-kill me now">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/MockDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/MockDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" afterDir="false" />
+    <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="blabla meiremire jeeee hata hugbooooooooooo">
       <change beforePath="$PROJECT_DIR$/src/test/java/verkefni/verkefnihbv30000/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/verkefni/verkefnihbv30000/TestCases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711249547525</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="blabla meiremire jeeee hata hugbooooooooooo">
+      <created>1711251970189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711251970189</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +225,7 @@
     <MESSAGE value="kill me now skil ekkert" />
     <MESSAGE value="database komið a stað, en laga þvi þeri eru ekki að na að tengja" />
     <MESSAGE value="ehv mögulega komið fyrir verkefni 4-kill me now" />
-    <option name="LAST_COMMIT_MESSAGE" value="ehv mögulega komið fyrir verkefni 4-kill me now" />
+    <MESSAGE value="blabla meiremire jeeee hata hugbooooooooooo" />
+    <option name="LAST_COMMIT_MESSAGE" value="blabla meiremire jeeee hata hugbooooooooooo" />
   </component>
 </project>
