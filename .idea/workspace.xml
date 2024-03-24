@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="blabla meiremire jeeee hata hugbooooooooooo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/MockDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/MockDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/verkefni/verkefnihbv30000/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/verkefni/verkefnihbv30000/TestCases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +37,9 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2dmKnWu0V7bL7MYasHs2fJ3Dr27" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -67,7 +76,7 @@
       <recent name="verkefni.verkefnihbvvol30000" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCases.testPayAndFinish">
+  <component name="RunManager" selected="JUnit.TestCases">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbvvol30000.Main" />
       <module name="VerkefniHBVvol30000" />
@@ -75,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases.testAddBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VerkefniHBVvol30000" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +94,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="verkefni.verkefnihbv30000" />
       <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbv30000.TestCases" />
-      <option name="METHOD_NAME" value="testAddBooking" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.testAddRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VerkefniHBVvol30000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="verkefni.verkefnihbv30000.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="verkefni.verkefnihbv30000" />
+      <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbv30000.TestCases" />
+      <option name="METHOD_NAME" value="testAddRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases.testPayAndFinish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.testAddUser2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VerkefniHBVvol30000" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +141,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="verkefni.verkefnihbv30000" />
       <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbv30000.TestCases" />
-      <option name="METHOD_NAME" value="testPayAndFinish" />
+      <option name="METHOD_NAME" value="testAddUser2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases.testSearchHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.testGetAvailableRooms1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VerkefniHBVvol30000" />
       <extension name="coverage">
         <pattern>
@@ -133,23 +157,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="verkefni.verkefnihbv30000" />
       <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbv30000.TestCases" />
-      <option name="METHOD_NAME" value="testSearchHotel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCases.testSearchHotel2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VerkefniHBVvol30000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="verkefni.verkefnihbv30000.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="verkefni.verkefnihbv30000" />
-      <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbv30000.TestCases" />
-      <option name="METHOD_NAME" value="testSearchHotel2" />
+      <option name="METHOD_NAME" value="testGetAvailableRooms1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,10 +165,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCases.testPayAndFinish" />
-        <item itemvalue="JUnit.TestCases.testAddBooking" />
-        <item itemvalue="JUnit.TestCases.testSearchHotel2" />
-        <item itemvalue="JUnit.TestCases.testSearchHotel" />
+        <item itemvalue="JUnit.TestCases" />
+        <item itemvalue="JUnit.TestCases.testAddRoom" />
+        <item itemvalue="JUnit.TestCases.testGetAvailableRooms1" />
+        <item itemvalue="JUnit.TestCases.testAddUser2" />
         <item itemvalue="JUnit.TestCases.testAddUser" />
       </list>
     </recent_temporary>
@@ -216,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711251970189</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="blabla meiremire jeeee hata hugbooooooooooo">
+      <created>1711252069877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711252069877</updated>
+    </task>
+    <task id="LOCAL-00008" summary="blabla meiremire jeeee hata hugbooooooooooo">
+      <created>1711252089505</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711252089505</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -9,15 +9,18 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
+
 import verkefni.verkefnihbvvol30000.View;
 import verkefni.verkefnihbvvol30000.ViewSwitcher;
 
 import java.net.URL;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.ResourceBundle;
 
-public class UserController implements Initializable { //semi funtional, ásættanlegt en ekki fullkomið.
+public class UserController implements Initializable {
+   //semi funtional, ásættanlegt en ekki fullkomið.
 
     @FXML
     private TextField fxUsername, fxEmail;
@@ -27,8 +30,11 @@ public class UserController implements Initializable { //semi funtional, ásætt
     private Label fxLoginText, fxSignupText;
 
 
-    public UserDB userDB = new UserDB();
     private MockDB mockDB = new MockDB();
+    private ArrayList<User> users = new ArrayList<>();
+
+
+    public UserDB userDB = new UserDB();
 
 
     @Override
@@ -73,8 +79,14 @@ public class UserController implements Initializable { //semi funtional, ásætt
 
     }
     public void addUser(User user) {
-        mockDB.addUser(new User(fxUsername.getText(), fxEmail.getText(), fxPassword.getText()));
+        mockDB.addUser(user);
     }
+
+    public void findUser(User user) {
+        mockDB.findUser(user);
+    }
+
+
 
 
 }

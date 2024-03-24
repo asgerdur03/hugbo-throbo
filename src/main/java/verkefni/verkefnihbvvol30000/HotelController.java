@@ -31,6 +31,7 @@ public class HotelController {
     @FXML
     private DatePicker fxStart, fxEnd;
 
+    MockDB mockDB = new MockDB();
 
     public HotelController(){db=new HotelDB();}
     @FXML
@@ -51,10 +52,16 @@ public class HotelController {
         // move to user-view
 
     }
-    public void addRoom(){
+    public void addRoom(Room room){
+        mockDB.addRoom(room);
 
     }
-    public void removeRoom(){
+    public void removeRoom(){ //sleppa?
 
+
+    }
+
+    public ArrayList<Room> getAvailableRooms() {
+        return rooms;
     }
 }
