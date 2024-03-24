@@ -95,6 +95,11 @@ public class MockDB implements MockDBInterface{
         return rooms;
     }
 
+    public ArrayList<Review> getReviews() {
+        return reviews;
+    }
+
+
     @Override
     public ArrayList<Hotel> searchHotel(String hotelName, String hotelAddress) {
         ArrayList<Hotel> foundHotels = new ArrayList<>();
