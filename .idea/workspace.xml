@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="kill me now skil ekkert">
-      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/SqliteSetupConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verkefni.db" afterDir="false" />
+    <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="database komið a stað, en laga þvi þeri eru ekki að na að tengja">
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/MockDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/MockDBInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/verkefni/verkefnihbv30000/TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verkefni.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Hotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/signup-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/signup-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/asger/Downloads/IntelliJ_Forrit/VerkefniHBVvol30000/src/main/resources/verkefni/verkefnihbvvol30000",
+    "last_opened_file_path": "C:/Users/asger/Downloads/IntelliJ_Forrit/Hotel-robob",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -73,7 +76,7 @@
       <recent name="verkefni.verkefnihbvvol30000" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestCases.testGetAvailableRooms">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbvvol30000.Main" />
       <module name="VerkefniHBVvol30000" />
@@ -81,6 +84,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VerkefniHBVvol30000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="verkefni.verkefnihbv30000.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="verkefni.verkefnihbv30000" />
+      <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbv30000.TestCases" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.testGetAvailableRooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VerkefniHBVvol30000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="verkefni.verkefnihbv30000.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="verkefni.verkefnihbv30000" />
+      <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbv30000.TestCases" />
+      <option name="METHOD_NAME" value="testGetAvailableRooms" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCases.testGetAvailableRooms" />
+        <item itemvalue="JUnit.TestCases" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,13 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710899141334</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="database komið a stað, en laga þvi þeri eru ekki að na að tengja">
+      <created>1710904613761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710904613761</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ehv komið" />
     <MESSAGE value="ui komið?, forrit sem runnar, en hefur ekkert function" />
     <MESSAGE value="kill me now skil ekkert" />
-    <option name="LAST_COMMIT_MESSAGE" value="kill me now skil ekkert" />
+    <MESSAGE value="database komið a stað, en laga þvi þeri eru ekki að na að tengja" />
+    <option name="LAST_COMMIT_MESSAGE" value="database komið a stað, en laga þvi þeri eru ekki að na að tengja" />
   </component>
 </project>

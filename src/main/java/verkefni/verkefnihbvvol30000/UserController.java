@@ -35,6 +35,11 @@ public class UserController implements Initializable { //semi funtional, ásætt
     }
 
     public void loginHandler(ActionEvent event) {  //EKKI BREYTA
+        /*
+
+
+
+
         try {
             if (userDB.islogin(fxUsername.getText(), fxPassword.getText())) {
                 fxLoginText.setText("Login successful");
@@ -43,7 +48,7 @@ public class UserController implements Initializable { //semi funtional, ásætt
             }
         } catch (SQLException e) {
             e.printStackTrace();
-        }
+        } */
 
     }
 
@@ -52,12 +57,15 @@ public class UserController implements Initializable { //semi funtional, ásætt
     }
 
     public void signupHandler(ActionEvent event) { // EKKI BREYTA
+        /*
         try {
             userDB.DBsignup(fxUsername.getText(), fxEmail.getText(), fxPassword.getText());
             fxSignupText.setText("Signup successful");
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+         */
 
 
     }

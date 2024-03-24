@@ -54,4 +54,10 @@ public class Booking {
                 "  " +  begin + '/' + end +
                 "     " + totalPrice;
     }
+
+    public Booking getBooking(){
+        return this;
+    }
+
+
 }

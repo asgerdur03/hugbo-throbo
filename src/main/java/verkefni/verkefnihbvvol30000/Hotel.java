@@ -3,13 +3,26 @@ package verkefni.verkefnihbvvol30000;
 public class Hotel {
     String hotelName;
     String hotelAddress;
-    float ratings;
+    Review review;
 
-    public Hotel(String hotelName, String hotelAddress, float ratings){
+    public Hotel(String hotelName, String hotelAddress, Review review){
         this.hotelAddress=hotelAddress;
         this.hotelName=hotelName;
-        this.ratings=ratings;
+        this.review =review;
     }
+
+    public Hotel(String hotelName, String hotelAddress) {
+        this.hotelAddress=hotelAddress;
+        this.hotelName=hotelName;
+    }
+
+    public Review getReview(){
+        return review;
+    }
+    public void setReview(Review review){
+        this.review=review;
+    }
+
     public String getHotelName(){
         return hotelName;
     }
