@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="blabla meiremire jeeee hata hugbooooooooooo">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/MockDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/MockDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/verkefni/verkefnihbv30000/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/verkefni/verkefnihbv30000/TestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/hotel-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/hotel-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +51,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/asger/Downloads/IntelliJ_Forrit/Hotel-robob",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -76,7 +72,7 @@
       <recent name="verkefni.verkefnihbvvol30000" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCases">
+  <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="verkefni.verkefnihbvvol30000.Main" />
       <module name="VerkefniHBVvol30000" />
@@ -240,6 +236,17 @@
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ehv komið" />
