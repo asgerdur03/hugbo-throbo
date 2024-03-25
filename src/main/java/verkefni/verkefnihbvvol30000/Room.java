@@ -41,5 +41,8 @@ public class Room {
     public String toString() {
         return String.format("%d beds, %1.0f kr/night",beds,prizePerNight);
     }
+
+    public String getName() { return getName();
+    }
 }
 

@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44afdab9-f782-421a-81b1-066609da6578" name="Changes" comment="blabla meiremire jeeee hata hugbooooooooooo">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/HotelDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verkefni/verkefnihbvvol30000/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/hotel-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/verkefni/verkefnihbvvol30000/hotel-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/asger/Downloads/IntelliJ_Forrit/Hotel-robob",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"

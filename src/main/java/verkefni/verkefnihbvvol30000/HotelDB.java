@@ -1,8 +1,13 @@
 package verkefni.verkefnihbvvol30000;
 
 import java.sql.*;
+import java.util.ArrayList;
+
+
+
 
 public class HotelDB {
+
     private Connection connectToDB() {
         Connection conn = null;
         try {
@@ -59,4 +64,8 @@ public class HotelDB {
         return -1;
     }
 
+    // er buin að reyna svo mikið eg skil ekki þori ekki að skemma lfmao  jaok
+    public ArrayList<Room> getAvailableRooms() {
+        return getAvailableRooms();
+    }
 }

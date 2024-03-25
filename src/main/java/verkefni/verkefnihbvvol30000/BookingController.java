@@ -1,5 +1,6 @@
 package verkefni.verkefnihbvvol30000;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import verkefni.verkefnihbvvol30000.StadfestingDialog;
 import verkefni.verkefnihbvvol30000.View;
@@ -48,5 +49,8 @@ public class BookingController {
 
     public ArrayList<Booking> getBookings() {
         return mockDB.getBookings();
+    }
+
+    public void payAndFinish(ActionEvent event) {
     }
 }
